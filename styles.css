@@ -1,0 +1,83 @@
+/* Reset some default styles */
+body, h1, h2, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styles for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background: rgb(28, 182, 234);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+}
+
+/* Change the background color for the logo */
+.logo {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.logo h1 {
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #fff; /* Set text color to white */
+}
+
+.about-us-button button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: underline;
+    padding: 5px 10px;
+}
+
+.section, .section2, .section3, .section4{
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+    text-align: justify;
+}
+
+.section2 img {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    max-height: 550px; /* Adjust the max-height as needed */
+    align-items: flex-start;
+}
+
+.div1, .div2{
+    display: flex;
+    align-items: flex-start;
+}
+
+.vimage{
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    /* max-height: 300px; Adjust the max-height as needed */
+    align-items: flex-start;
+    /* flex-wrap: wrap; */
+}
