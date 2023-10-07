@@ -7,6 +7,10 @@ body{
     margin: 0;
 }
 
+
+.water_cycle, .water_on_earth{
+  color: white;
+}
 .imagesec{
   top: 10px;
   position: relative;
@@ -165,3 +169,17 @@ h2{
   font-family:sans-serif;
   }
 
+
+.image_1{
+  width: 700px;
+  height: 500px;
+}
+
+.vimage{
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    /* max-height: 300px; Adjust the max-height as needed */
+    align-items: flex-start;
+    /* flex-wrap: wrap; */
+}
