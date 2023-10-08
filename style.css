@@ -6,6 +6,26 @@ body{
     height: 100vh;
     margin: 0;
 }
+.navigation {
+  width: 100%;
+  background:#0f0c08b7;
+  position: absolute;
+}
+
+
+p{
+  color:rgb(189, 186, 186);
+  font-family: helvetica;
+  font-size:17px;
+}
+
+.title_card{
+  color: rgb(199, 199, 199);
+  font-size: 70px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 10px;
+}
 
 
 .water_cycle, .water_on_earth{
@@ -14,12 +34,14 @@ body{
 .imagesec{
   top: 10px;
   position: relative;
+  text-align: center;
+
 }
 
 #mainimg{
   width: 100%;
-  height:500px ;
-  object-fit: cover;
+  height:400px ;
+  object-fit:cover;
   margin: none;
   padding: none;
 }
@@ -39,7 +61,7 @@ body{
   left: 10px;
   overflow:auto;
   float: left ;
-  position: relative;
+  position: absolute;
   text-decoration: none;
   display: block;
 }
@@ -78,11 +100,13 @@ body{
   font-family: arial;
   font-size:16px;
 }
+/* 
 .answer {
   color:rgb(189, 186, 186);
   font-family: helvetica;
   font-size:13px;
-}
+} */
+
 .subpage{
   margin: 2% 10%;
   padding: 20px;
@@ -182,4 +206,9 @@ h2{
     /* max-height: 300px; Adjust the max-height as needed */
     align-items: flex-start;
     /* flex-wrap: wrap; */
+}
+
+.image_2{
+  width: 800px;
+  height: 300px;
 }
