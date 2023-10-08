@@ -1,6 +1,6 @@
 body{
-  background: url("ocean-img.png");
-  -webkit-background-size: cover;
+  background: url("nasa-ocean-img.webp");
+  /* -webkit-background-size: cover; */
     background-position: absolute;
     background-size: cover;
     height: 100vh;
@@ -31,12 +31,7 @@ p{
 .water_cycle, .water_on_earth{
   color: white;
 }
-.imagesec{
-  top: 10px;
-  position: relative;
-  text-align: center;
 
-}
 
 #mainimg{
   width: 100%;
@@ -55,7 +50,13 @@ p{
   text-align: right;
   font-size: 70px;
 }
-.left-menu{
+
+/* .left-menu{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+} */
+/* .left-menu{
   height: 100%;
   width:25%;
   left: 10px;
@@ -64,41 +65,51 @@ p{
   position: absolute;
   text-decoration: none;
   display: block;
-}
-.left-menu ul{
-  list-style: none;
-  padding-left: 5px;
+} */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-.left-menu ul li a {
+li {
+  float: left;
+}
+
+li a {
   display: block;
-  color:white;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
   text-decoration: none;
-  font-family: calibri ;
-  font-size: 14px;
 }
-.left-menu ul li a:hover {
-  color: rgb(145, 143, 143);
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
 }
+
 .satellite{
   width:68%;
   border-radius: 10px;
   border: 2px solid #68646b;
-  background-color:rgba(0, 0, 0, 0.74);
-  margin: 10px 30px;
+  background-color:rgba(0, 0, 0, 0.837);
+  margin: 2% 15%;
   padding: 10px ;
-  float: right;
+  float: center;
   position:relative;
-  display:block;
+  display: block;
 }
 
 .question {
-  padding: 5px 0px;
+  padding: 10px 0px;
   color:rgb(255, 254, 254);
   background-color: #4b453daf;
   border-radius: 5px;
   font-family: arial;
-  font-size:16px;
+  font-size:25px;
 }
 /* 
 .answer {
@@ -211,4 +222,9 @@ h2{
 .image_2{
   width: 800px;
   height: 300px;
+}
+
+.list-box{
+  display: flex;
+  justify-content: space-around;
 }
